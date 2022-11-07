@@ -123,9 +123,10 @@
             ],
             "jars": [
                 "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
-                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar",
+                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12.jar",
                 "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
-                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12-1.0.6.jar"
+                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar",
+                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/jline.jar"
             ],
             "setup": {
                 "order": "mixed",
