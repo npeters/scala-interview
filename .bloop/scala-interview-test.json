@@ -1,0 +1,152 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-interview-test",
+        "directory": "/workspace/scala-interview",
+        "workspaceDir": "/workspace/scala-interview",
+        "sources": [
+            "/workspace/scala-interview/src/test/scala",
+            "/workspace/scala-interview/src/test/scala-2.12",
+            "/workspace/scala-interview/src/test/scala-2",
+            "/workspace/scala-interview/src/test/java",
+            "/workspace/scala-interview/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "scala-interview"
+        ],
+        "classpath": [
+            "/workspace/scala-interview/.bloop/scala-interview/scala-2.12/classes",
+            "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-library.jar"
+        ],
+        "out": "/workspace/scala-interview/.bloop/scala-interview",
+        "classesDir": "/workspace/scala-interview/.bloop/scala-interview/scala-2.12/test-classes",
+        "resources": [
+            "/workspace/scala-interview/src/test/resources",
+            "/workspace/scala-interview/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.15",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-library.jar",
+                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-compiler.jar",
+                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-reflect.jar",
+                "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-xml_2.12-1.0.6.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/gitpod/.sdkman/candidates/java/11.0.17.fx-zulu",
+                "options": [
+                    "-Duser.dir=/workspace/scala-interview"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/gitpod/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.15",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/gitpod/.sbt/boot/scala-2.12.15/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/gitpod/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.15/scala-library-2.12.15-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
