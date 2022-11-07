@@ -30,7 +30,7 @@ class QuestionTest extends AnyFlatSpec with Matchers {
   }
 
   it should "compute max and avg age" in {
-
+    
   }
 
   it should "sort by firstName" in {
