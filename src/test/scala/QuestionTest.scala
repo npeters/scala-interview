@@ -20,8 +20,6 @@ object Person {
 
 
 
-
-
 class QuestionTest extends AnyFlatSpec with Matchers {
 
   def loadData(): Seq[Person] = {
@@ -32,7 +30,7 @@ class QuestionTest extends AnyFlatSpec with Matchers {
   val data: Seq[Person] = loadData()
 
   "question" should "get person with id 42" in {
-
+   
   }
 
   it should "compute max and avg age" in {
@@ -51,9 +49,9 @@ class QuestionTest extends AnyFlatSpec with Matchers {
 
   }
 
+  it should "age min/avg/max by country" in {
 
-
-
-
+  }
+  
 
 }
